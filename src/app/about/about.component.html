@@ -1,0 +1,48 @@
+<div>
+<mat-card>
+    <div class="header-section">
+        <div class="header-headline">
+          <img class="avatar" src="assets/img/profile.jpeg" alt="Raul's profile picture">
+          <h1>Raúl Piracés Alastuey</h1>
+          <h2 class="mat-h2">Software Engineer</h2>
+        </div>
+        <hr>
+        <div class="bio">
+          <p>Hello! I'm a Software Engineer from Zaragoza (Spain) that loves Web Development, Data Mining and Business Intelligence.</p>
+          <p>I got my Bachelor’s Degree in Computer Science and Engineering in 2016 at University of Zaragoza. Nowadays, I'm actually working as full stack developer using .NET environment and Angular on top. </p>
+          <p>I'm constantly learning new languages and creating my own personal projects. Besides, I really enjoy attending tech events, sports and walking in the countryside. Take a look at my resume, my list of projects, my blog to know more about me.</p>
+          <p>Please feel free to contact me using any social network below:</p>
+        </div>
+        <div class="header-start">
+            <a class="linkedin" mat-raised-button href="https://es.linkedin.com/in/ra%C3%BAl-pirac%C3%A9s-alastuey-137569a5" target="_blank"><fa-icon [icon]="['fab', 'linkedin']"></fa-icon>&nbsp;LinkedIn</a>
+            <a class="twitter" mat-raised-button href="http://twitter.com/piraces_" target="_blank"><fa-icon [icon]="['fab', 'twitter']"></fa-icon>&nbsp;Twitter</a>
+            <a class="github" mat-raised-button href="https://github.com/piraces" target="_blank"><fa-icon [icon]="['fab', 'github']"></fa-icon>&nbsp;Github</a>
+            <a mat-raised-button href="mailto:raul.piraces@gmail.com" target="_blank"><fa-icon [icon]="['fas', 'envelope']"></fa-icon>&nbsp;Mail</a>
+        </div>
+      </div>
+  </mat-card>
+
+  <app-card icon="work" cardTitle="Jobs" [displayedColumns]="jobsColumns" [headerColumns]="jobsHeaders" [dataSource]="jobs"></app-card>
+
+  <app-card icon="assignment" cardTitle="Education" [displayedColumns]="educationColumns" [headerColumns]="educationHeaders" [dataSource]="education"></app-card>
+
+  <app-card icon="perm_identity" cardTitle="Experience" [displayedColumns]="experienceColumns" [headerColumns]="experienceHeaders" [dataSource]="experience"></app-card>
+
+  <app-card icon="star_rate" cardTitle="Awards and Honors" [displayedColumns]="awardsColumns" [headerColumns]="awardsHeaders" [dataSource]="awards"></app-card>
+
+  <app-card icon="accessibility" cardTitle="Volunteering" [displayedColumns]="volunteeringColumns" [headerColumns]="volunteeringHeaders" [dataSource]="volunteering"></app-card>
+
+  <app-card icon="assignment_turned_in" cardTitle="Certificates" [displayedColumns]="certificatesColumns" [headerColumns]="certificatesHeaders" [dataSource]="certificates"></app-card>
+
+  <mat-card>
+      <mat-card-header>
+          <mat-card-title><h2 class="mat-h2"><mat-icon>favorite</mat-icon>&nbsp;{{interests}}</h2></mat-card-title>
+      </mat-card-header>
+      <mat-card-content>
+        <p class="normal-text">
+          I'm interested in Data &amp; Process Mining, Business Intelligence, Computer Security, Software Development and Engineering, and Web Services.
+          Also interested on Front-end and Back-end development, as well as mobile application development.
+        </p>
+      </mat-card-content>
+    </mat-card>
+  </div>

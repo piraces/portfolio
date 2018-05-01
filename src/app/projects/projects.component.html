@@ -1,0 +1,15 @@
+<div fxLayout="row" fxLayout.xs="column" *ngFor="let projectRow of projectsRows">
+    <mat-card fxFlex="30%;" fxFlex.xs="80%" *ngFor="let project of projectRow">
+        <mat-card-header>
+            <div class="project-title">
+                <mat-card-title><h1>{{project.title}}</h1></mat-card-title>
+                <mat-card-subtitle>{{project.subtitle}}</mat-card-subtitle>
+            </div>
+        </mat-card-header>
+        <img mat-card-image src="{{project.imagePath}}" *ngIf="project.imagePath" style="max-height: 246px;">
+        <mat-card-content>
+            <p>{{project.description}}</p>
+        </mat-card-content>
+    </mat-card>
+</div>
+  

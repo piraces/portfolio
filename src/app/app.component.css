@@ -1,0 +1,38 @@
+.fill-remaining-space {
+    /*This fills the remaining space, by using flexbox.  
+   Every toolbar row uses a flexbox row layout. */
+   flex: 0 1 auto;
+ }
+
+ .main-menu {
+  position: relative;
+  background: dodgerblue;
+  color: white;
+ }
+
+ .toolbar{
+  background: dodgerblue;
+  color: white;
+ }
+
+ .name {
+  font-size: 25px;
+  margin-right: 16px;
+ }
+
+ .header-background {
+  background: #3f51b5;
+  overflow: hidden;
+ }
+
+ .spacer {
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+}
+
+.footer {
+  text-align: left;
+  font-size: 10px;
+  width: inherit;
+}

@@ -1,0 +1,41 @@
+.header-section {
+    text-align: center;
+    padding-top: 60px;
+}
+
+.header-headline {
+    color: #000;
+}
+
+.header-start {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.avatar {
+    height: 120px;
+    border-radius: 50%;
+}
+
+.linkedin {
+    background: #0077b5;
+    color: #fff;
+}
+
+.twitter {
+    background: #00aced;
+    color: #fff;
+}
+
+.github {
+    background: #000;
+    color: #fff;
+}
+
+.bio {
+    text-align: left;
+}
+
+.normal-text {
+    text-align: left;
+}

@@ -1,0 +1,67 @@
+<div>
+  <mat-toolbar class="mat-elevation-z6 main-menu " mat-scroll-shrink>
+      <div class="name">{{title}}</div>
+      <div fxLayout="row" fxShow="false" fxShow.gt-sm>
+          <button mat-button routerLink="#">
+            <span class="mat-button-wrapper">
+              <mat-icon>face</mat-icon>
+              <span>{{about}}</span>
+            </span>
+          </button>
+          <button mat-button routerLink="/projects">
+            <span class="mat-button-wrapper">
+              <mat-icon>work</mat-icon>
+              <span>{{projects}}</span>
+            </span>
+          </button>
+          <button mat-button routerLink="/resume">
+            <span class="mat-button-wrapper">
+              <mat-icon>description</mat-icon>
+              <span>{{resume}}</span>
+            </span>
+          </button>
+          <a mat-button href="https://blog.pirac.es">
+            <span class="mat-button-wrapper">
+              <mat-icon>subject</mat-icon>
+              <span>{{blog}}</span>
+            </span>
+          </a>
+      </div>
+      <button mat-button [mat-menu-trigger-for]="menu" fxHide="false" fxHide.gt-sm>
+          <mat-icon>menu</mat-icon>
+      </button>
+    </mat-toolbar>
+    <mat-menu x-position="before" #menu="matMenu">
+        <button mat-button routerLink="/about">
+          <span class="mat-button-wrapper">
+            <mat-icon>face</mat-icon>
+            <span>{{about}}</span>
+          </span>
+        </button>
+        <button mat-button routerLink="/projects">
+          <span class="mat-button-wrapper">
+            <mat-icon>work</mat-icon>
+            <span>{{projects}}</span>
+          </span>
+        </button>
+        <button mat-button routerLink="/resume">
+          <span class="mat-button-wrapper">
+            <mat-icon>description</mat-icon>
+            <span>{{resume}}</span>
+          </span>
+        </button>
+        <button mat-button routerLink="/blog">
+          <span class="mat-button-wrapper">
+            <mat-icon>subject</mat-icon>
+            <span>{{blog}}</span>
+          </span>
+        </button>
+    </mat-menu>
+
+  <router-outlet></router-outlet>
+</div>
+
+<mat-toolbar class="toolbar">
+      <h4 class='footer'>© Copyright {{currentDate}} Raúl Piracés. All rights reserved. Made with ❤️ with Angular</h4>
+    <span class='spacer'></span>
+</mat-toolbar>

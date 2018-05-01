@@ -1,0 +1,9 @@
+
+<mat-card>
+  <h1>Resume</h1>
+  <p><b>Download PDF:</b> 
+    <a href="{{resumePathEN}}" download>English</a> / 
+    <a href="{{resumePathES}}" download>Spanish</a>
+  </p>
+</mat-card>
+<pdf-viewer [src]="resumePathEN" [render-text]="true" style="display: block;"></pdf-viewer>
