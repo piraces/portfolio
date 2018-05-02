@@ -2,7 +2,7 @@
     <mat-card fxFlex="30%;" fxFlex.xs="80%" *ngFor="let project of projectRow">
         <mat-card-header>
             <div class="project-title">
-                <mat-card-title><h1>{{project.title}}</h1></mat-card-title>
+                <mat-card-title><h1><a class="hidden-link" target="_blank" href="{{project.link}}">{{project.title}}</a></h1></mat-card-title>
                 <mat-card-subtitle>{{project.subtitle}}</mat-card-subtitle>
             </div>
         </mat-card-header>

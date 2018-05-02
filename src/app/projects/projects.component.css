@@ -2,3 +2,8 @@
     width: 100%;
     text-align: center;
 }
+
+.hidden-link {
+    text-decoration: unset;
+    color: unset;
+}
