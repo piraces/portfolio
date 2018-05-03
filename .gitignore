@@ -1,5 +1,6 @@
 .DS_STORE
 
+package-lock.json
 /dist/
 bazel-*
 e2e_test.*
