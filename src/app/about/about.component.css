@@ -32,6 +32,11 @@
     color: #fff;
 }
 
+.stack-overflow {
+    background: rgb(204, 201, 201);
+    color: #000;
+}
+
 .bio {
     text-align: left;
 }
