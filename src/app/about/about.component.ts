@@ -42,7 +42,9 @@ export class AboutComponent implements OnInit {
 }
 
 const JOBS_DATA: Element[] = [
-  {date: 'December 2016 - Now', description: 'Software Engineer, Endalia HR Consulting & Software, Zaragoza (Spain).'},
+  {date: 'August 2018 - Now', description: '.Net Analyst Developer, Vueling Airlines S.A. (Spain)'},
+  {date: 'July 2018 - Now', description: '.Net Analyst Developer, Hiberus Tecnología, Zaragoza (Spain)'},
+  {date: 'December 2016 - July 2018', description: 'Software Engineer, Endalia HR Consulting & Software, Zaragoza (Spain).'},
   {date: 'January 2013 - September 2015', description: 'Computing services department manager, at Exea Alimentos S.A. De C.V.'}
 ];
 

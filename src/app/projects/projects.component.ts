@@ -11,6 +11,7 @@ export class ProjectsComponent implements OnInit {
   projectsRows: Array<Project[]>;
 
   PROJECTS_DATA: Project[] = [
+    {title: 'Fiestas de Ejea', link: 'https://github.com/piraces/fiestasEjea', subtitle: 'Ionic (Angular), Firebase with CI/CD (bitrise.io)', imagePath: '/assets/img/fiestas.png', description: 'Festivities info app for my native region, incuding firebase integration. Developed with Ionic (angular). Available for Android and iOs.'},
     {title: 'Portfolio', link: 'https://github.com/piraces/portfolio', subtitle: 'Angular, Typescript with CI/CD (Jenkins)', imagePath: '/assets/img/portfolio.png', description: 'Angular portfolio made static for my personal page, hosted on github and managed by Jenkins to perform CI/CD.'},
     {title: 'Adidas Assistant', link: 'https://github.com/Bozaneros/AdidasAssistant', subtitle: 'Tensorflow + Python (for recognition), Node.js (backend), MongoDB (DB), Facebook API, Recast.AI.', imagePath: '/assets/img/adi.png', description: 'Facebook Bot that acts as an assistant. It is able to interpret human natural language, and perform different actions such as recognize Adidas\' trainers.'},
     {title: '© - graph', link: 'https://github.com/ismaro3/c-graph', subtitle: 'Javascript, HTML5, CSS3, SPARQL, Java Spark, Vis.js.', imagePath: '/assets/img/c-graph.png', description: 'Tools related to the visualisation of copyright evidence and/or enhance the Copyright Wiki (copyrightevidence.org).'},

@@ -7,7 +7,7 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { PdfViewerModule } from 'ng2-pdf-viewer';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { faCoffee, faEnvelope } from '@fortawesome/free-solid-svg-icons';
-import { faTwitter, faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
+import { faTwitter, faLinkedin, faGithub, faStackOverflow, faMedium } from '@fortawesome/free-brands-svg-icons';
 
 import { AppComponent } from './app.component';
 import { CardComponent } from './card/card.component';
@@ -18,7 +18,7 @@ import { ResumeComponent } from './resume/resume.component';
 
 
 // Add an icon to the library for convenient access in other components
-library.add(faCoffee, faEnvelope, faTwitter, faLinkedin, faGithub);
+library.add(faCoffee, faEnvelope, faTwitter, faLinkedin, faGithub, faStackOverflow);
 
 @NgModule({
   declarations: [
