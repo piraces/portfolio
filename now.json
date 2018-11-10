@@ -5,6 +5,10 @@
   },
   "files": [
     "package.json",
+    "yarn.lock",
     "dist"
+   ],
+   "builds": [
+    { "src": "package.json", "use": "@now/static-build" }
    ]
 }
