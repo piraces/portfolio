@@ -10,5 +10,8 @@
    ],
    "builds": [
     { "src": "package.json", "use": "@now/static-build" }
+   ],
+   "alias": [
+      "pirac.es"
    ]
 }
