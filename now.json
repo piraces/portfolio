@@ -5,7 +5,6 @@
   },
   "files": [
     "package.json",
-    "yarn.lock",
     "dist"
    ],
    "builds": [
