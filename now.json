@@ -3,13 +3,10 @@
   "github": {
     "enabled": true
   },
-  "files": [
-    "package.json",
-    "dist"
-   ],
-   "builds": [
-    { "src": "package.json", "use": "@now/static-build" }
-   ],
+  "static": {
+    "public": "dist",
+    "directoryListing": false
+   },
    "alias": [
       "pirac.es"
    ]
