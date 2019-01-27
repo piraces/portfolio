@@ -9,8 +9,14 @@ branches:
 before_script:
   - npm install -g @angular/cli
 
+install:
+  - npm install
+
 script:
   - ng build --prod
+
+after_success:
+  - npm run lh -- https://pirac.es
 
 notifications:
   email:
