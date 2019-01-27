@@ -6,8 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./resume.component.css']
 })
 export class ResumeComponent implements OnInit {
-
-  resumePathES = '/assets/files/CV-ES.pdf';
+  
   resumePathEN = '/assets/files/CV-EN.pdf';
   constructor() { }
 
