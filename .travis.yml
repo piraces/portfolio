@@ -15,9 +15,6 @@ install:
 script:
   - ng build --prod
 
-after_success:
-  - npm run lh -- https://pirac.es
-
 notifications:
   email:
     on_failure: change
