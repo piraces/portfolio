@@ -8,6 +8,6 @@
     color: unset;
 }
 
-.mat-card-header-text {
+::ng-deep .mat-card-header-text {
     margin: 0px !important;
 }

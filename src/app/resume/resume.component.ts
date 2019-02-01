@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ResumeComponent implements OnInit {
   
-  resumePathEN = '/assets/files/CV-EN.pdf';
+  resumePathEN = '/static/CV-EN.pdf';
   constructor() { }
 
   ngOnInit() {
