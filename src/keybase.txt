@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/piraces
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://pirac.es
+  * I am piraces (https://keybase.io/piraces) on keybase.
+  * I have a public key ASAY9lt2JBfTVRlHsteRs1kOTGxCbARDLtAyzv3NL21jtwo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "012054b6c394d683c90cbae20af949812abad84b57aa8391d6c7cebd34df4b0550c30a",
+      "host": "keybase.io",
+      "kid": "012018f65b762417d3551947b2d791b3590e4c6c426c04432ed032cefdcd2f6d63b70a",
+      "uid": "0b140afa15c7562c08e25e1fa0353219",
+      "username": "piraces"
+    },
+    "merkle_root": {
+      "ctime": 1549055832,
+      "hash": "318b91af6d332e63881f00120086ae36a831daed6f21d99ce8787044c86455a7db2b3a1b6278875e5f42f73a23891a208cddefb4c84c68b393cbecaecc442dd2",
+      "hash_meta": "aeafe2475fe342c626aa33277f8accdef16448ca6b9c4f82e6336f2f609263df",
+      "seqno": 4680142
+    },
+    "service": {
+      "entropy": "cqPIesMvnTJ8Feofen0o+KRe",
+      "hostname": "pirac.es",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "2.13.2"
+  },
+  "ctime": 1549055843,
+  "expire_in": 504576000,
+  "prev": "22f6bbd6c7be0b32ce003a84455c7a322567573eb75d33731bc12900335fa2d2",
+  "seqno": 9,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgGPZbdiQX01UZR7LXkbNZDkxsQmwEQy7QMs79zS9tY7cKp3BheWxvYWTESpcCCcQgIva71se+CzLOADqERVx6MiVnVz63XTNzG8EpADNfotLEICYFecUMeD+WZAh9/Q1qOAzyQS9zNnjgWuaxbQ8S+vjKAgHCo3NpZ8RADxpxTadAHRHHmv+GMLsJXNEWFHvZ0wa+x+PMr/jICJeEGlFB2wvado80BDcNNwoOSGP0x1vWBLXH2HPfzCwQBqhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEII8Xtsrx5Qt9pM/jnqCfJekv3xG6bWW/uFUg1kDHoyU2o3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/piraces
+
+==================================================================
