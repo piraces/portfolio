@@ -42,7 +42,7 @@
     "rxjs": "^6.3.3",
     "serve": "^11.0.0",
     "webpack": "^4.25.1",
-    "zone.js": "^0.8.26"
+    "zone.js": "^0.8.29"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "~0.10.0",
