@@ -26,7 +26,7 @@
     "@angular/platform-browser-dynamic": "8.0.0",
     "@angular/router": "8.0.0",
     "@fortawesome/angular-fontawesome": "0.4.0",
-    "@fortawesome/fontawesome-svg-core": "^1.2.20",
+    "@fortawesome/fontawesome-svg-core": "^1.2.21",
     "@fortawesome/free-brands-svg-icons": "^5.10.0",
     "@fortawesome/free-solid-svg-icons": "^5.10.0",
     "@types/pdfjs-dist": "^2.0.1",
