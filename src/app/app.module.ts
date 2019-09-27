@@ -2,12 +2,11 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { MaterialModule } from './material/material.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { FlexLayoutModule } from "@angular/flex-layout";
-import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { FlexLayoutModule } from '@angular/flex-layout';
+import { FontAwesomeModule, FaIconLibrary } from '@fortawesome/angular-fontawesome';
 import { PdfViewerModule } from 'ng2-pdf-viewer';
-import { library } from '@fortawesome/fontawesome-svg-core';
-import { faCoffee, faEnvelope, faKey } from '@fortawesome/free-solid-svg-icons';
-import { faTwitter, faLinkedin, faGithub, faStackOverflow } from '@fortawesome/free-brands-svg-icons';
+import { faCoffee, faEnvelope, faKey, fas } from '@fortawesome/free-solid-svg-icons';
+import { faTwitter, faLinkedin, faGithub, faStackOverflow, fab } from '@fortawesome/free-brands-svg-icons';
 
 import { AppComponent } from './app.component';
 import { CardComponent } from './card/card.component';
@@ -15,10 +14,6 @@ import { AboutComponent } from './about/about.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { AppRoutingModule } from './routing/routing.module';
 import { ResumeComponent } from './resume/resume.component';
-
-
-// Add an icon to the library for convenient access in other components
-library.add(faCoffee, faEnvelope, faTwitter, faLinkedin, faGithub, faStackOverflow, faKey);
 
 @NgModule({
   declarations: [
@@ -40,6 +35,16 @@ library.add(faCoffee, faEnvelope, faTwitter, faLinkedin, faGithub, faStackOverfl
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { 
-  
+export class AppModule {
+  constructor(library: FaIconLibrary) {
+    library.addIconPacks(fas);
+    library.addIconPacks(fab);
+    library.addIcons(faCoffee);
+    library.addIcons(faEnvelope);
+    library.addIcons(faKey);
+    library.addIcons(faTwitter);
+    library.addIcons(faLinkedin);
+    library.addIcons(faGithub);
+    library.addIcons(faStackOverflow);
+  }
 }
