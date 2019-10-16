@@ -1015,7 +1015,7 @@
   resolved "https://registry.yarnpkg.com/@types/node/-/node-12.7.12.tgz#7c6c571cc2f3f3ac4a59a5f2bd48f5bdbc8653cc"
   integrity sha512-KPYGmfD0/b1eXurQ59fXD1GBzhSQfz6/lKBxkaHX9dKTzjXbK68Zt7yGUxUsCS1jeTy/8aL+d9JEr+S54mpkWQ==
 
-"@types/pdfjs-dist@^2.0.0", "@types/pdfjs-dist@^2.1.2":
+"@types/pdfjs-dist@^2.1.0", "@types/pdfjs-dist@^2.1.2":
   version "2.1.2"
   resolved "https://registry.yarnpkg.com/@types/pdfjs-dist/-/pdfjs-dist-2.1.2.tgz#fd4013eaa8fb8ac2bc96c9df6a1b2346121dabc8"
   integrity sha512-tUMIcX3z8M8EXA0SA4YIZcgZ6r/Rb2wbwvM9AKJhE/MPh5rEC90Sg8lMyVX6hzMaToR4jWEvN7IUA1bvoVpctA==
@@ -5229,13 +5229,13 @@ neo-async@^2.5.0, neo-async@^2.6.0, neo-async@^2.6.1:
   resolved "https://registry.yarnpkg.com/neo-async/-/neo-async-2.6.1.tgz#ac27ada66167fa8849a6addd837f6b189ad2081c"
   integrity sha512-iyam8fBuCUpWeKPGpaNMetEocMt364qkCsfL9JuhjXX6dRnguRVOfk2GZaDpPjcOKiiXCPINZC1GczQ7iTq3Zw==
 
-ng2-pdf-viewer@^5.3.2:
-  version "5.3.2"
-  resolved "https://registry.yarnpkg.com/ng2-pdf-viewer/-/ng2-pdf-viewer-5.3.2.tgz#73fceb32bcdd23b86ce822b1fd5501e84148592b"
-  integrity sha512-lGen4owSxBdgxtq9Ge5+K5QMkqg3qj/IWuAKrnwIbkvQL2n0uLV0x0r23/mIxxQbI+ITi8wslEzyf9kp6TzvUQ==
+ng2-pdf-viewer@^6.0.0:
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/ng2-pdf-viewer/-/ng2-pdf-viewer-6.0.0.tgz#a8fa95be2cdb9863705b64a51068db42d17171bf"
+  integrity sha512-ewjXj36fv/Sn4wExbL4l0D3dplusIf33zSYUkOkRHM49IjIbw+2/w2cXhGWEoEBtWfyig0GNT4zvC/O9cfLhTA==
   dependencies:
-    "@types/pdfjs-dist" "^2.0.0"
-    pdfjs-dist "^2.1.266"
+    "@types/pdfjs-dist" "^2.1.0"
+    pdfjs-dist "^2.2.228"
     tslib "^1.9.0"
 
 nice-try@^1.0.4:
@@ -5815,7 +5815,7 @@ pbkdf2@^3.0.3:
     safe-buffer "^5.0.1"
     sha.js "^2.4.8"
 
-pdfjs-dist@2.2.228, pdfjs-dist@^2.1.266:
+pdfjs-dist@2.2.228, pdfjs-dist@^2.2.228:
   version "2.2.228"
   resolved "https://registry.yarnpkg.com/pdfjs-dist/-/pdfjs-dist-2.2.228.tgz#777b068a0a16c96418433303807c183058b47aaa"
   integrity sha512-W5LhYPMS2UKX0ELIa4u+CFCMoox5qQNQElt0bAK2mwz1V8jZL0rvLao+0tBujce84PK6PvWG36Nwr7agCCWFGQ==
