@@ -39,7 +39,7 @@
     "pdfjs-dist": "2.2.228",
     "popper.js": "^1.16.0",
     "rxjs": "^6.5.4",
-    "serve": "^11.2.0",
+    "serve": "^11.3.0",
     "webpack": "^4.41.5",
     "zone.js": "~0.9.1"
   },
@@ -61,7 +61,7 @@
     "karma-jasmine": "~2.0.1",
     "karma-jasmine-html-reporter": "^1.5.1",
     "protractor": "^5.4.2",
-    "serve": "^11.2.0",
+    "serve": "^11.3.0",
     "ts-node": "~8.5.4",
     "tslint": "~5.20.1",
     "typescript": "3.5.3"
