@@ -31,7 +31,7 @@
     "@fortawesome/free-solid-svg-icons": "^5.11.2",
     "@types/pdfjs-dist": "^2.1.3",
     "bootstrap": "^4.4.1",
-    "core-js": "^3.6.1",
+    "core-js": "^3.6.2",
     "font-awesome": "^4.7.0",
     "hammerjs": "^2.0.8",
     "jquery": "^3.4.1",
