@@ -15,11 +15,11 @@ export class CardComponent implements OnInit {
   @Input() headerColumns: string [];
   @Input() dataSource;
 
-  constructor(){
+  constructor() {
 
   }
 
-  ngOnInit(){
+  ngOnInit() {
 
   }
 

@@ -15,7 +15,7 @@ export class AppComponent {
   projects = 'Projects';
   blog = 'Blog';
   resume = 'Resume';
-  
+
   currentDate = new Date().getFullYear();
 }
 

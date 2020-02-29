@@ -1,45 +1,11 @@
 import { Component, OnInit } from '@angular/core';
-import { CardComponent, Element } from '../card/card.component';
+import { Element } from '../card/card.component';
 
 @Component({
   selector: 'app-about',
   templateUrl: './about.component.html',
   styleUrls: ['./about.component.css']
 })
-
-export class AboutComponent implements OnInit {
-  interests = 'Interests';
-  
-  jobsColumns = ['date', 'description'];
-  jobsHeaders = ['Date', 'Position'];
-  jobs = JOBS_DATA;
-
-  educationColumns = ['date', 'description'];
-  educationHeaders = ['Date', 'Studies'];
-  education = EDUCATION_DATA;
-
-  experienceColumns = ['date', 'description'];
-  experienceHeaders = ['Date', 'Experience'];
-  experience = EXPERIENCE_DATA;
-
-  awardsColumns = ['date', 'description'];
-  awardsHeaders = ['Date', 'Award/Honor'];
-  awards = AWARDS_DATA;
-  
-  volunteeringColumns = ['date', 'description'];
-  volunteeringHeaders = ['Date', 'Volunteer task'];
-  volunteering = VOLUNTEERING_DATA;
-
-  certificatesColumns = ['date', 'description'];
-  certificatesHeaders = ['Date', 'Certificate'];
-  certificates = CERTIFICATES_DATA;
-
-  constructor() { }
-
-  ngOnInit() {
-  }
-
-}
 
 const JOBS_DATA: Element[] = [
   {date: 'October 2019 - Now', description: 'Software Engineer, Plain Concepts. (Spain)'},
@@ -79,3 +45,37 @@ const CERTIFICATES_DATA: Element[] = [
   {date: 'August 2016', description: 'First Certificate In English (FCE) - University of Cambridge.'},
   {date: 'February 2015', description: 'Computer Forensics (at "Asociación de Ingenieros en Informática de Aragón - AI2Aragón").'}
 ];
+
+export class AboutComponent implements OnInit {
+  interests = 'Interests';
+
+  jobsColumns = ['date', 'description'];
+  jobsHeaders = ['Date', 'Position'];
+  jobs = JOBS_DATA;
+
+  educationColumns = ['date', 'description'];
+  educationHeaders = ['Date', 'Studies'];
+  education = EDUCATION_DATA;
+
+  experienceColumns = ['date', 'description'];
+  experienceHeaders = ['Date', 'Experience'];
+  experience = EXPERIENCE_DATA;
+
+  awardsColumns = ['date', 'description'];
+  awardsHeaders = ['Date', 'Award/Honor'];
+  awards = AWARDS_DATA;
+
+  volunteeringColumns = ['date', 'description'];
+  volunteeringHeaders = ['Date', 'Volunteer task'];
+  volunteering = VOLUNTEERING_DATA;
+
+  certificatesColumns = ['date', 'description'];
+  certificatesHeaders = ['Date', 'Certificate'];
+  certificates = CERTIFICATES_DATA;
+
+  constructor() { }
+
+  ngOnInit() {
+  }
+
+}
