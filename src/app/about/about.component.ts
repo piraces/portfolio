@@ -1,12 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Element } from '../card/card.component';
 
-@Component({
-  selector: 'app-about',
-  templateUrl: './about.component.html',
-  styleUrls: ['./about.component.css']
-})
-
 const JOBS_DATA: Element[] = [
   {date: 'October 2019 - Now', description: 'Software Engineer, Plain Concepts. (Spain)'},
   {date: 'August 2018 - October 2019', description: '.Net Analyst Developer, Vueling Airlines S.A. (Spain)'},
@@ -46,6 +40,11 @@ const CERTIFICATES_DATA: Element[] = [
   {date: 'February 2015', description: 'Computer Forensics (at "Asociación de Ingenieros en Informática de Aragón - AI2Aragón").'}
 ];
 
+@Component({
+  selector: 'app-about',
+  templateUrl: './about.component.html',
+  styleUrls: ['./about.component.css']
+})
 export class AboutComponent implements OnInit {
   interests = 'Interests';
 
