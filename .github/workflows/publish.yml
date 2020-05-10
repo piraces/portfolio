@@ -1,0 +1,33 @@
+name: Publish to GitHub Pages
+
+on:
+  push:
+    branches: [ master ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Use Node.js 12.x
+      uses: actions/setup-node@v1
+      with:
+        node-version: 12.x
+      env:
+        CI: true
+    - name: Install Packages
+      run: npm ci
+    - name: Build prod
+      run: npm run build --if-present
+      
+    - name: Deploy to Github Pages
+      uses: crazy-max/ghaction-github-pages@v1
+      with:
+        # Build directory to deploy
+        build_dir: dist
+        # Write the given domain name to the CNAME file
+        fqdn: pirac.es
+      env:
+        GITHUB_PAT: ${{ secrets.ACCESS_TOKEN }}
