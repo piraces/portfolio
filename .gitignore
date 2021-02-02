@@ -16,6 +16,7 @@ pubspec.lock
 modules/.settings
 .bazelrc
 .vscode
+.vs
 modules/.vscode
 
 # Don't check in secret files
