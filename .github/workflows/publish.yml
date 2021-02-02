@@ -23,11 +23,9 @@ jobs:
       run: npm run build --if-present
       
     - name: Deploy to Github Pages
-      uses: crazy-max/ghaction-github-pages@v1
+      uses: crazy-max/ghaction-github-pages@v2
       with:
-        # Build directory to deploy
         build_dir: dist
-        # Write the given domain name to the CNAME file
         fqdn: pirac.es
       env:
         GITHUB_PAT: ${{ secrets.ACCESS_TOKEN }}
