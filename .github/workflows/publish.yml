@@ -28,4 +28,4 @@ jobs:
         build_dir: dist
         fqdn: pirac.es
       env:
-        GITHUB_PAT: ${{ secrets.ACCESS_TOKEN }}
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
